@@ -13,6 +13,7 @@ h2{
 
 p{
 	font-size: 16px;
+	margin: 20px;
 }
 
 
@@ -22,17 +23,21 @@ p{
 	background-color: black;
 }
 
+.col-md-10{
+	padding: 0;
+}
 /* ..........................................NAVBAR................................ */
 
 #bs-example-navbar-collapse-1{
 	background-color: #403838;
-	border-radius: 8px;	
+	border-radius: 0px;	
 }
 
 #bs-example-navbar-collapse-1 a{
 	color: white;
 	margin-right: 5px;
 	margin-left: 5px;
+	font-size: 18px;
 
 }
 
@@ -46,7 +51,7 @@ color: white;
 
 #navbootstrap {
 	
-	margin-left: 10%;
+	margin-left: 15%;
 }
 
 
@@ -66,7 +71,7 @@ color: white;
   position: relative;  
 }
 .fancy span:before,
-.fancy span:after {
+ {
   content: "";
   position: absolute;
   height: 5px;
@@ -89,7 +94,7 @@ color: white;
 
 .fancy2 {
   line-height: 0.3;
-  padding-left: 40px;
+  padding-left: 60px;
 }
 .fancy2 span {
   display: inline-block;
@@ -102,7 +107,7 @@ color: white;
   border-bottom: 1px solid black;
   border-top: 0px solid black;
   top: 0;
-  width: 40px;
+  width: 60px;
 }
 
 .fancy2 span:before {
@@ -162,7 +167,7 @@ color: white;
 footer{
 	height: 100px;
 	background-color: #403838;
-	border-radius: 8px;	
+	border-radius: 0px;	
 	min-width: 500px;
 }
 footer a {
