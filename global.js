@@ -27,7 +27,7 @@ $(document).ready(function(){
 			console.log(src);
 			//$("#output").attr('src', src.toLowerCase()).fadeIn(1500);
 			$("#output").fadeOut(500, function() {
-	        	$("#output").attr("src", "img/accords/" + src.toLowerCase());
+	        	$("#output").attr("src", "img/accord/" + src.toLowerCase());
 	    	}).fadeIn(1800);
 		});
 	});
